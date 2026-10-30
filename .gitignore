@@ -1,0 +1,30 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+*service-account*.json
+*serviceAccount*.json
+hosts.yml
+.git-credentials
+
+# Dependencies, tool/runtime caches and local stores
+node_modules/
+.venv/
+.tools/
+.browsers/
+.system-deps/
+.firebase/
+firebase-export*/
+firestore_export/
+auth_export/
+
+# Private execution evidence and temporary output
+*.log
+evidence/
+evidence-*/
+cache/
+.DS_Store

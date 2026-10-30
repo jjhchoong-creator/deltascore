@@ -1,0 +1,18 @@
+{
+  "name": "deltascore-fresh-backend",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=tap auth-boundary.test.mjs firebase-verifier.test.mjs account-session.test.mjs",
+    "test:emulator": "firebase emulators:exec --only auth --project demo-deltascore-fresh \"node --test --test-reporter=tap auth-boundary.test.mjs firebase-verifier.test.mjs account-session.test.mjs auth-emulator.test.mjs\""
+  },
+  "dependencies": {
+    "firebase-admin": "14.5.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "15.34.0"
+  }
+}

@@ -1,0 +1,11 @@
+title = "DeltaScore source snapshot secret scan"
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Reviewed auth-boundary source SHA256 guard literals, not API keys"
+regexTarget = "secret"
+regexes = [
+  '''^dd2b451a3793c9d9c401714a01ad6a9becb7948af837d5df568a6e34f95b4a61$''',
+  '''^f7d06e1ddee02c62478abce8569916103bffbf9f7646505d240376dfc2a1ceff$''',
+]

@@ -1,0 +1,340 @@
+{
+  "purpose": "Point-in-time source export; not a release acceptance record",
+  "files": [
+    {
+      "path": "backend-integration/source/account-session.mjs",
+      "sha256": "ce83695093db59a485ebbcde39e83fd55a0dc88fd85f407e635d46411819f597",
+      "bytes": 1558
+    },
+    {
+      "path": "backend-integration/source/account-session.test.mjs",
+      "sha256": "c934fe59be0e22cc31f896e5846a009386fb519aa00aec8f00089c494215fa9f",
+      "bytes": 8631
+    },
+    {
+      "path": "backend-integration/source/approved-domain.mjs",
+      "sha256": "d9f59b7a5be80624fdede072b6155713928103439e95c950483d26680681e8f7",
+      "bytes": 1789
+    },
+    {
+      "path": "backend-integration/source/auth-boundary-rate-trace-fixture.mjs",
+      "sha256": "d132c46d2cf8e052ea43455a2bf4b9f20bd172c23364b3cddf9ceab7ed1266fd",
+      "bytes": 7146
+    },
+    {
+      "path": "backend-integration/source/auth-boundary.mjs",
+      "sha256": "dd2b451a3793c9d9c401714a01ad6a9becb7948af837d5df568a6e34f95b4a61",
+      "bytes": 8024
+    },
+    {
+      "path": "backend-integration/source/auth-boundary.test.mjs",
+      "sha256": "7097b6d7a142ff3bbbc13384168e3cd2fb9efec271de653a91081e079ebef02c",
+      "bytes": 4997
+    },
+    {
+      "path": "backend-integration/source/auth-emulator.test.mjs",
+      "sha256": "3f114281a2e0e506504f8dc345524b89af538ff1407264c37ba37d54efdcb560",
+      "bytes": 6435
+    },
+    {
+      "path": "backend-integration/source/firebase-all.json",
+      "sha256": "f69fde955106ead30807e708c34b883157b061d56579cff2d5935ea1f68f6a0f",
+      "bytes": 288
+    },
+    {
+      "path": "backend-integration/source/firebase-firestore.json",
+      "sha256": "ee163cc37daa0535967b6394ab1a37f0cc0e30f89f448d599df7b414cb7328a8",
+      "bytes": 221
+    },
+    {
+      "path": "backend-integration/source/firebase-verifier.mjs",
+      "sha256": "43a45889a6bd885d6f59c9dd30bce3935b9b24625c2446e61879e6c99fac238f",
+      "bytes": 1301
+    },
+    {
+      "path": "backend-integration/source/firebase-verifier.test.mjs",
+      "sha256": "7e60bd1f609e4ac8efdf99095b6b447ea1b07fde1ee479773147bf1cf0f6ce07",
+      "bytes": 2086
+    },
+    {
+      "path": "backend-integration/source/firebase.json",
+      "sha256": "1050768d61a0101ab8d447d3a9f1f641a2fbd9561c0b8b70c0df2d03d85a4406",
+      "bytes": 163
+    },
+    {
+      "path": "backend-integration/source/firestore.rules",
+      "sha256": "89d9e8fd3f98b2290d2da578bf5600ec257754361060ad23814c68e2b56b59e5",
+      "bytes": 147
+    },
+    {
+      "path": "backend-integration/source/limiter-rate-trace-fixture.mjs",
+      "sha256": "5a028a8046a6684e682913b5e55a201ac81adccb3e6091333eadf72213b7e8ba",
+      "bytes": 6244
+    },
+    {
+      "path": "backend-integration/source/mock-api-functional-budget.test.mjs",
+      "sha256": "8ff56e244f2e795f0baeebb7e4bf7be98a20f91d91397ad38f15e5edab4cbb67",
+      "bytes": 89033
+    },
+    {
+      "path": "backend-integration/source/mock-api-rate-trace.test.mjs",
+      "sha256": "e76e387907eb034e7e632b96304724f93fafcba4de904ca3872a3e366506cfee",
+      "bytes": 89634
+    },
+    {
+      "path": "backend-integration/source/mock-api.test.mjs",
+      "sha256": "d5b13c7fcb52c61aa1f1b784e3bdcaa98885b74da04a23013a443b32b8189ef0",
+      "bytes": 88862
+    },
+    {
+      "path": "backend-integration/source/mock-catalogue.test.mjs",
+      "sha256": "e1ec84724bd783090131c533e74ff5b6169265d3e374952ad5b306be515bd505",
+      "bytes": 5105
+    },
+    {
+      "path": "backend-integration/source/mock-client-paid-daily-midnight.test.mjs",
+      "sha256": "b1585ac06f9e34f950c35b06dcf01d8724c48fac275e38dcf1486f2f258b5135",
+      "bytes": 3482
+    },
+    {
+      "path": "backend-integration/source/mock-client-paid-daily.test.mjs",
+      "sha256": "24a38bc16aff8abc658b258ffb9ae496aed9f9bcc2bd29fd726c17164cc9f69a",
+      "bytes": 11911
+    },
+    {
+      "path": "backend-integration/source/mock-client-work-budget-refusal.test.mjs",
+      "sha256": "a409deee075aca4df9db14686c3dab1d9e1f4ddd1cb6125d3af8f16cb3dde5a7",
+      "bytes": 4594
+    },
+    {
+      "path": "backend-integration/source/mock-client.mjs",
+      "sha256": "4f3b3a36c523dd631b94795637f5dc2696563db8f43bfd68c964fabf470be72b",
+      "bytes": 10527
+    },
+    {
+      "path": "backend-integration/source/mock-client.test.mjs",
+      "sha256": "9e787681c55cc6f289d41974e3d838c6612abc8a3b53e0716508090d0883d522",
+      "bytes": 35734
+    },
+    {
+      "path": "backend-integration/source/mock-delete-query-pages.test.mjs",
+      "sha256": "9013eb13b9523f30315bd715462b269f5a1c2ec3d6a3135558955a562c3257d3",
+      "bytes": 11429
+    },
+    {
+      "path": "backend-integration/source/mock-intent.mjs",
+      "sha256": "ac6d47af52671ddd5fe3cc7e3e250358bc7c5628062b2f48304439c0bcf9760f",
+      "bytes": 866
+    },
+    {
+      "path": "backend-integration/source/mock-intent.test.mjs",
+      "sha256": "8ba2e7f33e613911126259e53fbf02878eb26215497f2d0dc9ae0dc0b389e61f",
+      "bytes": 5005
+    },
+    {
+      "path": "backend-integration/source/mock-operation-work-budget-entitlement-fixture-adapter.test.mjs",
+      "sha256": "22b67c2b3718315cdb6d96b1027666db2997b8efc09e2943d57f22e6a0c43589",
+      "bytes": 33331
+    },
+    {
+      "path": "backend-integration/source/mock-operation-work-budget.test.mjs",
+      "sha256": "04e118b03e07f4a6fcd378be06b02091eb4257d03c59a5e9871e048146712acd",
+      "bytes": 32785
+    },
+    {
+      "path": "backend-integration/source/mock-paid-daily-limit.test.mjs",
+      "sha256": "6df23f270c3f63c83f9f3c590629462377f5f308abd8ae0908239d89c34d974d",
+      "bytes": 44041
+    },
+    {
+      "path": "backend-integration/source/mock-paid-daily-repair.test.mjs",
+      "sha256": "84210dd91f6f1226f8d698154664715128ef3febceef14fb8d5070f6b704d693",
+      "bytes": 15255
+    },
+    {
+      "path": "backend-integration/source/mock-read-concurrency.test.mjs",
+      "sha256": "a126982716da084c9c115e27bb20535d12e0ba716f6cd1aba0bcacfbe1b9187b",
+      "bytes": 7913
+    },
+    {
+      "path": "backend-integration/source/mock-store.mjs",
+      "sha256": "afc0ad176ac5456e7ecde0ceef8332010517dff89f6d08bc476ffb9cca4c925f",
+      "bytes": 17333
+    },
+    {
+      "path": "backend-integration/source/mock-store.test.mjs",
+      "sha256": "bfcb79ed372d6b55bc542553717a1894a1cad8fd7e46d770cce253ab9b91c2af",
+      "bytes": 12282
+    },
+    {
+      "path": "backend-integration/source/package.json",
+      "sha256": "ab4e1b85ccebda5d5d9d4952ec6b91dbea879e85140008777ebbb04ab1849717",
+      "bytes": 601
+    },
+    {
+      "path": "backend-integration/source/paid-daily-policy.mjs",
+      "sha256": "e9a2f3ed649f8f933d5dbcef39cd5e254e341b42867cc10cb5b3c8e76f207a36",
+      "bytes": 3080
+    },
+    {
+      "path": "backend-integration/source/request-rate-limit.mjs",
+      "sha256": "ed6f4e87fddf2bf04245ca5925c0746b58d865c16c422d614f2617e38928442a",
+      "bytes": 3782
+    },
+    {
+      "path": "backend-integration/source/request-rate-limit.test.mjs",
+      "sha256": "3e380242efdba878bc21d50d42c859fa812e9a51a374a4b192b288ad987c8f7c",
+      "bytes": 12192
+    },
+    {
+      "path": "backend-integration/source/verify-run.mjs",
+      "sha256": "d7eb4cd2e44caaac4931a7d8eb5813f3c98ea8378c90845d583697f785f7f521",
+      "bytes": 2701
+    },
+    {
+      "path": "product-requirements/DeltaScore-Product-Requirements-v1.docx",
+      "sha256": "58927b84a0686945e1ce1f127122f6e1aff6d3c63fc4203faaab1db4bc5f5b7c",
+      "bytes": 71080
+    },
+    {
+      "path": "product-requirements/DeltaScore-Product-Requirements-v1.md",
+      "sha256": "3181bd59077c404d3972806eb0f13ebfa5a0259e81de1b89428ac9893b2edc1a",
+      "bytes": 82972
+    },
+    {
+      "path": "ui-cloud-integration/source/account-access.js",
+      "sha256": "b7dd6178ed1be7b844d2a076ec79f09867de84fd15999dc87dc24cd532a73506",
+      "bytes": 7460
+    },
+    {
+      "path": "ui-cloud-integration/source/account-history.js",
+      "sha256": "47c99f7b55215e0fa0d04e874678311507e48dc199ba685e88aafa0972812bf8",
+      "bytes": 44281
+    },
+    {
+      "path": "ui-cloud-integration/source/account-progress.js",
+      "sha256": "4631f0775dbea20330ca57f568854e4d36cc221a35888074538138159e8e1b48",
+      "bytes": 9263
+    },
+    {
+      "path": "ui-cloud-integration/source/account-save.js",
+      "sha256": "2ee264d1e3ce4d2494fc6c604d8ffba2fb331fe9888af166edee8ff0def5c587",
+      "bytes": 30765
+    },
+    {
+      "path": "ui-cloud-integration/source/app.js",
+      "sha256": "3d9187510d45bc4ad841ea91c34ef009f25f06e00199704a019ee0d3809face1",
+      "bytes": 129784
+    },
+    {
+      "path": "ui-cloud-integration/source/catalogue.js",
+      "sha256": "72fac8c9a16d4ae5c1d1f2b03fdf2ba8fc71fa8dfae5b3ce3c10c3ef7ced57b5",
+      "bytes": 1089
+    },
+    {
+      "path": "ui-cloud-integration/source/domain.js",
+      "sha256": "d9f59b7a5be80624fdede072b6155713928103439e95c950483d26680681e8f7",
+      "bytes": 1789
+    },
+    {
+      "path": "ui-cloud-integration/source/estimated-score.js",
+      "sha256": "dc7722661fa5bd8e60659dfcb5f1b17b3efd636d2b838d46b4125dac9fdfeb5e",
+      "bytes": 5244
+    },
+    {
+      "path": "ui-cloud-integration/source/home-page.js",
+      "sha256": "a924b78fc271bb4c2230262068eaa79cd8f8dae7511c7030eadd7533d4405665",
+      "bytes": 9082
+    },
+    {
+      "path": "ui-cloud-integration/source/index.html",
+      "sha256": "5cac9e7ef4631b9a18a72ddcc3cdcf567202fe81895ce1bd6a20c2a8ab6e5169",
+      "bytes": 507
+    },
+    {
+      "path": "ui-cloud-integration/source/integration-server.js",
+      "sha256": "fe4d908db6658bccd32f9fa9036545d9ee50ccd7469ebc65417f0ac59724fe99",
+      "bytes": 10861
+    },
+    {
+      "path": "ui-cloud-integration/source/jakarta.ttf",
+      "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+      "bytes": 176288
+    },
+    {
+      "path": "ui-cloud-integration/source/landing-analytics.js",
+      "sha256": "f5b5c7437e5df9b54d39e21bd9114aaacac13826edaf47dcfb7ad956b99ef0ba",
+      "bytes": 3273
+    },
+    {
+      "path": "ui-cloud-integration/source/notes-page.js",
+      "sha256": "e02d2f38977d7927a634cf7ac215005d4d6a81e279c5f8e8c41616659f435cb0",
+      "bytes": 3294
+    },
+    {
+      "path": "ui-cloud-integration/source/pd-run.account-progress.sh",
+      "sha256": "c132451bd2dee6a305d6efd1ea6b3b283ba593a319a20c18ca23f2dab93fad1a",
+      "bytes": 66758
+    },
+    {
+      "path": "ui-cloud-integration/source/practice-page.js",
+      "sha256": "76e7e0109d79dd967c1d2a26e950c5ce05093719b5b168aa5925202ba5a0bd9a",
+      "bytes": 3665
+    },
+    {
+      "path": "ui-cloud-integration/source/practice-repeat.js",
+      "sha256": "902e22a9da5473f145487ddfd389df084478f4c20254901154d25707e3d6d5a3",
+      "bytes": 2136
+    },
+    {
+      "path": "ui-cloud-integration/source/practice-routines.js",
+      "sha256": "905da7e8837516c081dc6cb920c4666f4513ab7d86f3596960b84566a3f30598",
+      "bytes": 110997
+    },
+    {
+      "path": "ui-cloud-integration/source/progress-recommendation.js",
+      "sha256": "4c3df670c8598ac5729b95bf9dbc5d1f52f97559707a0c2e0f6cbc48337e41ac",
+      "bytes": 9821
+    },
+    {
+      "path": "ui-cloud-integration/source/progress-view.js",
+      "sha256": "845e8553c6bd2b72271aebbcbf2be368dd577d9d68ccecf007d28d9cce7ac917",
+      "bytes": 7559
+    },
+    {
+      "path": "ui-cloud-integration/source/progress.js",
+      "sha256": "e51a9ef5534414f3fe9f7b78053703cd9d2a0af6c4b1943a9ced8643485f5246",
+      "bytes": 2115
+    },
+    {
+      "path": "ui-cloud-integration/source/recommendation-model.js",
+      "sha256": "86c0d87a2bf3b5146e54776d9e81d862645ee3adbb1035a0e335b1d1f93b8de3",
+      "bytes": 9872
+    },
+    {
+      "path": "ui-cloud-integration/source/server.js",
+      "sha256": "96503f0c0aae70b49e9779b6f4d0eded3aee89af3e35512bed32393deae33f52",
+      "bytes": 1923
+    },
+    {
+      "path": "ui-cloud-integration/source/styles.css",
+      "sha256": "316ba0124b6a5b43dee17c021d6c75dae37946b120e8947f26da410d23aa5c54",
+      "bytes": 36575
+    },
+    {
+      "path": "ui-cloud-integration/source/ui-cloud-account-progress-analytics2-fp.test.mjs",
+      "sha256": "f336b96ac69e4ee6cf22e31752964c142994f188ffc26453b3e7cd5ca86d3bba",
+      "bytes": 893692
+    },
+    {
+      "path": "ui-cloud-integration/source/ui-cloud-account-review-edit-safety-fp.test.mjs",
+      "sha256": "664d4f57327bbb03cdaab4475d89db03f5876a78b3dd9d8a1779d7e4806fe185",
+      "bytes": 872987
+    },
+    {
+      "path": "ui-cloud-integration/source/ui-cloud-account-usage.test.mjs",
+      "sha256": "f3a26dc8f453ba212b10961faefd41965493ae912124973b20b2cde0390aabeb",
+      "bytes": 25841
+    }
+  ]
+}
